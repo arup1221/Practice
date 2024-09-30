@@ -58,3 +58,11 @@ public class DigitDp {
         return countB - countA; // Return the difference
     }
 }
+
+
+/* 
+Sample Input
+123 321
+Sample Output
+171
+*/

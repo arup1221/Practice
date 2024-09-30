@@ -35,3 +35,29 @@ public class LargestNumber {
        return result.toString();
    }
 }
+
+
+
+/* 
+input	
+3
+
+5
+9 4 2 2 6 3 2 2 1
+
+2
+5 11 2 2 5 8 9 10 19
+
+5
+9 9 9 9 9 9 9 9 9
+
+
+
+output
+
+99999
+
+4
+
+-1
+*/

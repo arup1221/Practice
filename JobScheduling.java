@@ -77,3 +77,19 @@ public class JobScheduling {
         return low;
     }
 }
+
+
+
+
+/* 
+Sample Input
+4
+2 4 4
+3 6 6
+6 8 2
+5 7 3
+
+
+Sample Output
+7
+*/
