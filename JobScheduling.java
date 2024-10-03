@@ -37,11 +37,11 @@ public class JobScheduling {
 
     // when don't overlap && solving with startTime
     public static int jobSchedulingEndTime(int[][] a) {
+
         int n = a.length;
         Arrays.sort(a, (x, y) -> Integer.compare(x[0], y[0]));
         int[] dp = new int[n + 1];
         Arrays.fill(dp, Integer.MIN_VALUE);
-
         dp[n] = 0;
 
         for (int i = n - 1; i >= 0; i--) {

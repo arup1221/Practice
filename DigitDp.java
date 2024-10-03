@@ -54,7 +54,7 @@ public class DigitDp {
 
     private static long solve(long a, long b) {
         long countB = count(b);
-        long countA = (a > 0) ? count(a - 1) : 0; // Count for range [a, b]
+        long countA = (a > 0) ? count(a-1) : 0; // Count for range [a, b]
         return countB - countA; // Return the difference
     }
 }
